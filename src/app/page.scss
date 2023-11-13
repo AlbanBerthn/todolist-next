@@ -1,0 +1,28 @@
+.presentation {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+
+  &__title {
+    margin: 10px;
+    color: #86c232;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: underline;
+  }
+
+  &__description {
+    margin: 10px;
+    font-size: 1.3em;
+  }
+
+  &__button {
+    background-color: #86c232;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 1.5em;
+    align-self: self-end;
+    justify-self: end;
+  }
+}
