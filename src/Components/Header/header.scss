@@ -1,3 +1,50 @@
 .header {
-  background-color: red;
+  background-color: #474b4f;
+  margin: 0;
+
+  // Cadre Name
+  &__name {
+    // background-color: black;
+    // color: white;
+    padding: 10px;
+  }
+
+  &__name--title {
+    font-size: 2em;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    // border: 1px solid white;
+    margin: 5px;
+    color: #86c232;
+  }
+
+  &__name--description {
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+    margin: 5px;
+    color: #61892f;
+  }
+
+  // Menu Nav
+
+  &__nav {
+    padding: 10px;
+  }
+
+  &__nav--links {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__nav--link {
+    font-size: 1.5em;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  &__nav--link:hover {
+    background-color: #6b6e70;
+  }
 }
