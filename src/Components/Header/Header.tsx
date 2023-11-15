@@ -21,7 +21,9 @@ export default function Header() {
             <li className="header__nav--link">
               <Link href="/Task">Tâche</Link>
             </li>
-            <li className="header__nav--link"> Liste de courses</li>
+            <li className="header__nav--link">
+              <Link href="/Course">Liste de courses</Link>
+            </li>
           </ol>
         </nav>
       </div>
