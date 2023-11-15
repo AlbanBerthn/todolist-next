@@ -1,0 +1,40 @@
+.task {
+  &__form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 20px;
+    background-color: #474b4f;
+    border-top: 5px solid #61892f;
+    border-bottom: 5px solid #61892f;
+  }
+
+  &__form--label {
+    display: block;
+    // width: 100%;
+    margin: 10px;
+    color: #61892f;
+    font-size: 2em;
+  }
+
+  &__form--input {
+    border: 5px solid #86c232;
+    margin: 10px;
+    width: 20%;
+    padding: 5px;
+    color: black;
+    font-size: 1.5em;
+  }
+
+  &__form--button {
+    background-color: #86c232;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: 1.5em;
+    width: 100px;
+    padding: 5px;
+    box-shadow: 2px 2px 3px #86c232;
+    align-self: self-end;
+    justify-self: end;
+  }
+}
