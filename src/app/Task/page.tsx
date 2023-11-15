@@ -19,8 +19,13 @@ export default function Task() {
   }
 
   function handleDelete(id: number) {
-    const newTaskList = taskList.filter((item) => item.id != id);
-    setTaskList(newTaskList);
+    // Pour que ce handle fonctionne, j'ai du typer l'evenement qu'il ce passait
+    // a savoir preciser que evt est de type evevenement souris React
+    return (evt: React.MouseEvent) => {
+      const newTaskList = taskList.filter((item) => item.id != id);
+      setTaskList(newTaskList);
+      // evt.preventDefault();
+    };
   }
   // console.log(taskList);
   return (
@@ -54,6 +59,7 @@ export default function Task() {
               {item.task}{" "}
               <button
                 className="task__list__item--button"
+                // onClick={() => this.fetchData(handleDelete(item.id))}
                 onClick={handleDelete(item.id)}
               >
                 Supprimer
