@@ -37,4 +37,43 @@
     align-self: self-end;
     justify-self: end;
   }
+  // Liste des tâches
+  &__list {
+    // display: flex;
+    // flex-direction: column;
+    // flex-wrap: nowrap;
+    margin: 20px;
+    background-color: #474b4f;
+    border-top: 5px solid #61892f;
+    border-bottom: 5px solid #61892f;
+  }
+
+  &__list--title {
+    display: block;
+    // width: 100%;
+    margin: 10px;
+    color: #61892f;
+    font-size: 2em;
+  }
+
+  &__list--item {
+    display: flex;
+    background-color: #6b6e70;
+    margin: 15px;
+    font-size: 1.5em;
+    padding: 10px;
+    border: 3px solid #86c232;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__list__item--button {
+    background-color: #86c232;
+    border-radius: 5px;
+    margin: 15px;
+    font-size: 1em;
+    width: 130px;
+    padding: 5px;
+    box-shadow: 2px 2px 3px #86c232;
+  }
 }
