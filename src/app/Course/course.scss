@@ -17,7 +17,38 @@
     font-size: 2em;
   }
 
+  &__form__label--quantity {
+    display: block;
+    // width: 100%;
+    margin: 10px;
+    color: #61892f;
+    font-size: 2em;
+  }
+
   &__form--input {
+    border: 5px solid #86c232;
+    margin: 10px;
+    width: 20%;
+    padding: 5px;
+    color: black;
+    font-size: 1.5em;
+  }
+
+  // Ajout Quantiter
+
+  &__form__quantity--choice {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  &__form__quantity--add {
+    // border: 3px solid #86c232;
+    font-size: 2.5em;
+    margin: 10px;
+    width: 50px;
+  }
+
+  &__form__input--quantity {
     border: 5px solid #86c232;
     margin: 10px;
     width: 20%;
@@ -37,6 +68,7 @@
     align-self: self-end;
     justify-self: end;
   }
+
   // Liste des tâches
   &__list {
     // display: flex;
