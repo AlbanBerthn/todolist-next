@@ -1,0 +1,25 @@
+{
+  "width": 206,
+  "height": 354,
+  "cx": [
+    [ "TASKS", 48 ],
+    [ "ASSOCIER", 158 ],
+    [ "USERS", 48 ],
+    [ "COURSES", 48 ],
+    [ "ACHETER", 158 ]
+  ],
+  "cy": [
+    [ "TASKS", 51 ],
+    [ "ASSOCIER", 51 ],
+    [ "USERS", 177 ],
+    [ "COURSES", 303 ],
+    [ "ACHETER", 303 ]
+  ],
+  "shift": [
+    [ "ASSOCIER,USERS,0", 0 ],
+    [ "ASSOCIER,TASKS,0", 0 ],
+    [ "ACHETER,USERS,0", 0 ],
+    [ "ACHETER,COURSES,0", 0 ]
+  ],
+  "ratio": []
+}

@@ -1,0 +1,10 @@
+TASKS:_nom, completion, status
+ASSOCIER, 0N USERS, 11 TASKS
+
+USERS: _nom, prenom, mail, pseudo, password
+
+COURSES: _nom, quantité, status
+Acheter, 0N USERS, 11 COURSES
+
+
+

@@ -31,6 +31,7 @@ export default function Course() {
       ];
     });
     setCourse("");
+    setQuantity(0);
   }
 
   function handleDelete(id: number) {
